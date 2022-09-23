@@ -68,7 +68,7 @@ body {
 
 #headline {
   background-image: url(images/Header\ bg.png);
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 150px;
@@ -110,11 +110,7 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  #headline {
-    background-image: url(images/header-mobile.png);
-  }
-
-  #navbar ul {
+    #navbar ul {
     display: none;
   }
 
