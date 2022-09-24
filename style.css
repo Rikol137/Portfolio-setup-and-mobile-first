@@ -110,7 +110,7 @@ body {
 }
 
 @media all and (max-width: 768px) {
-    #navbar ul {
+  #navbar ul {
     display: none;
   }
 
